@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <form method="POST" action="/courseCatalogue">
+            <h1>Course Catalogue</h1>
+            <label for="">Click here to display the Course Catalogue</label>
+            <button>Click Me</button>
+        </form>
+        <form method="POST" action="/instructorLookup">
+            <h1>Instructor Lookup</h1>
+            <input type="text" placeholder="Enter Instructor name" name="instructorName">
+            <button>Click Me</button>
+        </form>
+        <form method="POST" action="/assignInstructor">
+            <h1>Assign instructor to a course</h1>
+            <input type="text"  name="instructorUsernameInput" placeholder="Enter instructor username">
+            <input type="text" name="courseCodeInput" placeholder="Enter course code">
+            <button>Click Me</button>
+        </form>
+    </main>
+    <script src="./server.js"></script>
+</body>
+</html>

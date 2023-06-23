@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63e6ebc69334d065c23b93fa"
+  },
+  "CourseTitle": "Introduction to Finance",
+  "CourseCode": "FIN101",
+  "Instructor": "petersmith",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e6ebcd8d9304682ecd74c9"
+  },
+  "CourseTitle": "Object Oriented Programming in Java",
+  "CourseCode": "OOP440",
+  "Instructor": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e6ec10bd52164739a98f31"
+  },
+  "CourseTitle": "Accounting",
+  "CourseCode": "ACC010",
+  "Instructor": "kettybill",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e6f205ce277ded02edb983"
+  },
+  "CourseTitle": "Statistics",
+  "CourseCode": "STAT120",
+  "Instructor": "petersmith",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63e7168bce277ded02edb98a"
+  },
+  "CourseTitle": "Computer",
+  "CourseCode": "COMP122",
+  "Instructor": "",
+  "__v": 0
+}]
